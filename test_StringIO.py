@@ -1,4 +1,4 @@
-# 作修改后
+
 from io import StringIO
 f = StringIO() # 创建一个对象
 f.write("hello") # 写入内存
