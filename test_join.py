@@ -1,7 +1,7 @@
 # 1,基础语法
 import  os
 print(os.name)
-print(os.uname()) # 查看操作系统
+# print(os.name()) # 查看操作系统
 print(os.environ) # 查看环境变量
 print("os.path.abspath 查看当前文件绝对路径:",os.path.abspath("test_join.py")) # 查看当前文件绝对路径
 print("os.path.join 链接字符串：",os.path.join("/home/xiao/Desktop/stu_python笔记", "xiao"))
