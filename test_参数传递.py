@@ -1,5 +1,5 @@
 def f1(a, b, *args, **kw):
-    print("a: ",a,"b: ",b,"args: ",args,"kw ",kw)
+    print("a:", a,"b:", b,"args:", args,"kw", kw)
 # f1(1) 运行错误必选参数不能省略
 
 

@@ -22,6 +22,11 @@ def recursion(k):
 
 # Sn=n(a1+an)/2
 def sumA(n):
+    """
+
+    :param n:
+    :return:
+    """
     return(n*(n+1)/2)
 
 # 乘法表

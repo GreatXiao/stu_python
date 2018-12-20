@@ -1,7 +1,7 @@
 # 创建元祖 可存放字典、元祖
 import copy
 my_tuple = (1, "hello", [1, 2],("haha",1))
-my_tuple1 = my_tuple[:]
+my_tuple1 = my_tuple[:2]
 print("打印元祖：",my_tuple)
 print("遍历：",end="")
 for t in my_tuple:

@@ -15,6 +15,7 @@ def _odd_iter():
 f = _odd_iter()
 print(f.__next__())
 print(next(f))
+
 def _not_d(n):
     return lambda x:x%n>0
 
